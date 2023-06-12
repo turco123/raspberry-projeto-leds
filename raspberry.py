@@ -63,6 +63,8 @@ def seq3():
   low(led8)
   high(led9)
   time.sleep(2)
+  low(led9)
+  time.sleep(2)
     
 def seq7():
   high(led9)
